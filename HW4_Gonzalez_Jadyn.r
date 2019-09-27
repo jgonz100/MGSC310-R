@@ -90,6 +90,7 @@ summary(mod1)
 
 # l) Residuals
 length(mod1$residuals)
+length(train$profitM)
 hist(mod1$residuals, breaks = 40)
 # Appears to be a normal distribution
 
